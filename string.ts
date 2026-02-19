@@ -1,0 +1,13 @@
+let str  = "Hello world";
+console.log("length "+str.length);
+console.log("char At : "+str.charAt(8));
+console.log("concat :"+str.concat(" i am good"));
+console.log("Ends with : "+str.endsWith("rld"));
+console.log("Includes : "+str.includes("orl"));
+console.log("IndexOf : "+str.indexOf('w'));
+console.log("slice : "+str.slice(2,7));
+console.log("Replace : "+str.replace("lo","looooo..."));
+console.log("starts with : "+str.startsWith("He"));
+console.log(" sub string: "+str.substring(3,7));
+console.log("LowerCase : "+str.toLocaleLowerCase());
+console.log("UpperCase : "+str.toUpperCase());
