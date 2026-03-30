@@ -15,6 +15,7 @@ console.log(Browser);
 for(const e in Browser){
     console.log(e+":"+Browser[e]);
 }*/
+//-----------------------------------------------------------------
 var web;
 (function (web) {
     web[web["firefox"] = 0] = "firefox";
@@ -44,6 +45,7 @@ function fn1(str) {
 }
 console.log(web.safari);
 console.log(web);
+//--------------------------------------------------------------------
 // string
 console.log("-----Environment-----");
 var Environment;
@@ -56,6 +58,7 @@ var Environment;
 console.log(Environment);
 console.log(Environment.STAGE);
 console.log(Environment['dev']);
+//--------------------------------------------------------------
 // heterogeneous
 console.log("---Heterogeneous----");
 var statuss;
