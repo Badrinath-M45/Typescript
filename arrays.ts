@@ -14,8 +14,8 @@ console.log(arr2);
 console.log(arr2[2]);
 
 console.log("------");
-// using generics...!!!
 
+// using generics...!!!
 let employeeNames:Array<string>=["tom","jerry","ninja hatori","kemomaki"];
 console.log(employeeNames);
 console.log(employeeNames[2]);
@@ -48,7 +48,7 @@ console.log(values1);
 // iterate the array using for loop
 
 let arr4 : Array<string | number>=["nandu","johnwick","stark","wolf","king landing",12,23,435,55,6,66];
-for(let i =0 ;i<arr4.length;i++){
+for(let i =0;i<arr4.length;i++){
     console.log(i+" : "+arr4[i]);
 }
 
@@ -58,5 +58,6 @@ arr4.push("Rajasaab","khaidi");
 for(let e in arr4){
     console.log(e+" : "+arr4[e]);
 }
+
 
 
