@@ -1,0 +1,16 @@
+var num = 10;
+console.log(num);
+var str = "Number";
+console.log(str);
+var none = 45;
+console.log(none);
+none = "How r u..!!";
+console.log(none);
+var boo = true;
+console.log(boo);
+boo = false;
+console.log(boo);
+var n2 = null;
+console.log(n2);
+var n3 = undefined;
+console.log(n3);
