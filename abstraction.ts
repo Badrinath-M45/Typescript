@@ -24,6 +24,7 @@ class Animal implements User{
     }
     two(){
         console.log("Two...!!!")
+        console.log("Threee....");
     }
 }
 const num = new Animal();
